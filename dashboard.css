@@ -1,6 +1,6 @@
 .form-submit {
     margin-top: 24px;
-    /* font-size: 24px; */
+    font-size: 24px;
 }
 .avt {
 }
@@ -22,11 +22,4 @@
 }
 .right-bottom {
     margin: -10px;
-}
-/* .form-content input {
-    border: 1px solid #b6e2a1;
-} */
-.input-value {
-    border: 1px solid #ff6464;
-    padding: 0 0 0 2%;
 }
