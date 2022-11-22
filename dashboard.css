@@ -2,10 +2,9 @@
     margin-top: 24px;
     font-size: 24px;
 }
-.avt {
-}
+
 .img-avt {
-    /* width: 100%; */
+    width: 100%;
     padding: 64px;
     border: 1px solid #000;
     border-radius: 50%;

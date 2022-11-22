@@ -1,32 +1,39 @@
-.form-submit {
-    margin-top: 24px;
-    /* font-size: 24px; */
+@media print {
+  body * {
+    display: none;
+  }
+
+  input#name * {
+    background: rebeccapurple;
+  }
 }
-.avt {
+.form-submit {
+  margin-top: 24px;
+  /* font-size: 24px; */
 }
 .img-avt {
-    /* width: 100%; */
-    padding: 64px;
-    border: 1px solid #000;
-    border-radius: 50%;
-    background-color: #e5d9b6;
+  /* width: 100%; */
+  padding: 64px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  background-color: #e5d9b6;
 }
 .avt input {
-    margin: 12px 12%;
+  margin: 12px 12%;
 }
 .infor-bottom input {
-    max-width: 32%;
-    border: 1.5px solid #dc3535;
-    border-radius: 50px;
-    background-color: #ffe15d;
+  max-width: 32%;
+  border: 1.5px solid #dc3535;
+  border-radius: 50px;
+  background-color: #ffe15d;
 }
 .right-bottom {
-    margin: -10px;
+  margin: -10px;
 }
 /* .form-content input {
     border: 1px solid #b6e2a1;
 } */
 .input-value {
-    border: 1px solid #ff6464;
-    padding: 0 0 0 2%;
+  border: 1px solid #ff6464;
+  padding: 0 0 0 2%;
 }
